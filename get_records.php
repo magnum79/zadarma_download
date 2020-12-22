@@ -9,7 +9,7 @@ define('USE_SANDBOX', false);
 $zd = new \Zadarma_API\Client(KEY, SECRET, USE_SANDBOX);
 
 $params['take'] = 200;
-$params['skip'] = 45202;
+$params['skip'] = 0;
 $totalCount = 999999;
 while ($params['skip'] <= $totalCount) {
     $count = 0;
