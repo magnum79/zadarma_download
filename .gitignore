@@ -1,0 +1,5 @@
+/vendor/
+/call_data/
+/voice_files/
+.vscode/
+include.php
